@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Carties")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ac0683c1744b4f3bf54cbb7539f07b2bb0ba7ab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da2d06047d7b640d22448f825df8b6d7724d8452")]
 [assembly: System.Reflection.AssemblyProductAttribute("Carties")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Carties")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
