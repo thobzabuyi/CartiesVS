@@ -1,10 +1,12 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace Carties.Entities
 {
+    [Table("Items")]
     public class Item
     {
         public Guid Id {get; set;}
@@ -15,9 +17,9 @@ namespace Carties.Entities
         public int Year { get; set; }
         public int Mileage { get; set; }
 
-        
+
         public Auction Auction{get; set;}
-         public Guid AuctionIdId {get; set;}
+         public Guid AuctionId {get; set;}
 
     }
 }
